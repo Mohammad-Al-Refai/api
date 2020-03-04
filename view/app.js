@@ -12,7 +12,7 @@ let body={
     name:name.value,
     msg:msg.value
 }
-fetch("http://localhost:3000/msg",{
+fetch("https://new-bebe.herokuapp.com/msg",{
 method:"POST",
 headers:{
     "Content-Type":"Application/json"
