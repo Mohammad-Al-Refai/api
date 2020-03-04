@@ -1,6 +1,6 @@
 let list = document.getElementById("list");
 
-fetch("http://localhost:3000/3527")
+fetch("https://new-bebe.herokuapp.com/3527")
   .then(res => res.json())
   .then(data => {
     for (let i = 0; i < data.length; i++) {
