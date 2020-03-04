@@ -20,6 +20,7 @@ headers:{
 body:JSON.stringify(body)
 }).then(res=>res.json()).then(data=>{
     console.log(data)
+    alert("تم الارسال شكرا")
 })
 
 
