@@ -6,7 +6,7 @@ let port=process.env.PORT||3000
 
 
 app.get("/",(req,res)=>{
-res.send(JSON.parse({data:["A","B","C","D","E"]}))
+res.send({data:["A","B","C","D","E"]})
 
 })
 
