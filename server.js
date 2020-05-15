@@ -6,7 +6,7 @@ let port=process.env.PORT||3000
 
 
 app.post("/",(req,res)=>{
-  res.send(res.body)
+  res.send(req.body)
 // let r={
 // email:false
 //   ,password:false
