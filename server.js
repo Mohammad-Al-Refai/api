@@ -11,8 +11,8 @@ app.post("/",(req,res)=>{
 // email:false
 //   ,password:false
 // }
-// let email=res.body.email
-// let password=res.body.password
+// let email=req.body.email
+// let password=req.body.password
 // if(email==="1"){
 //   r.email=true
 // }
