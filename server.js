@@ -5,22 +5,9 @@ app.use(bp.json())
 let port=process.env.PORT||3000
 
 
-app.post("/",(req,res)=>{
-  res.send(req.body)
-// let r={
-// email:false
-//   ,password:false
-// }
-// let email=req.body.email
-// let password=req.body.password
-// if(email==="1"){
-//   r.email=true
-// }
-// if(password==="1"){
-//   r.password=true
-// }
-//   res.send(r)
-// })
+app.get("/",(req,res)=>{
+res.send([1234,2343,6543,3421,3432,7657,5456,3454,1232,4325])
+})
 
 
 app.listen(port)
